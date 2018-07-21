@@ -7,8 +7,8 @@ Free and Open to the Public
 
 ### Livestreaming and webcast will be available on this site
 
-John Palmer
-Sociodemography Research Group and Interdisciplinary Research Group on Immigration
+[John Palmer](http://johnrbpalmer.com)  
+[Sociodemography Research Group](https://www.upf.edu/web/demosoc) and [Interdisciplinary Research Group on Immigration](https://www.upf.edu/web/gritim)
 
 This lecture is part of an ongoing series on the escalation of anti-immigrant policies around the world. It will provide updates on legal and political developments in the United States, including the situation of thousands of children forcibly separated from their parents by the government, the Supreme Court’s decision to uphold Trump’s Muslim ban, the use of mass detention, criminal prosecution, and interior raids as tools for border control, and increasing threats against naturalized citizens. The lecture will offer background on how the United States reached this point, and it will explore possible ways to resist and stop these forms of state repression. 
 
