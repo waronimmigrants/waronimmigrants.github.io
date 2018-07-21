@@ -1,11 +1,11 @@
+## Livestreaming and webcast will be available on this site
+
 Universitat Pompeu Fabra  
 Room 20.183 (Jaume I building, Ciutadella Campus)  
 30 July 2018  
 8:00-9:30 PM
 
 Free and Open to the Public
-
-**Check back here for livestreaming information.**
 
 John Palmer
 Sociodemography Research Group and Interdisciplinary Research Group on Immigration
