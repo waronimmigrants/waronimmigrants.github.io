@@ -17,7 +17,7 @@ This lecture is part of an ongoing series on the escalation of anti-immigrant po
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohnrbpalmer%2Fvideos%2F10156537321414253%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
 **Slides:**
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT2Ng80XaG3Hr6z6uU-pVSe2lFQKDPP8SQj1fvkRpU_HSNt8S7jZt6JGhALFskwfIKEKL9_NBExOJPb/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT2Ng80XaG3Hr6z6uU-pVSe2lFQKDPP8SQj1fvkRpU_HSNt8S7jZt6JGhALFskwfIKEKL9_NBExOJPb/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 **More resources will be posted here in the near future**
 
