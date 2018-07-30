@@ -5,7 +5,9 @@ Room 20.183 (Jaume I building, Ciutadella Campus)
 
 Free and Open to the Public
 
-**Livestreaming and webcast will be available on this site**
+**Livestreaming and webcast here:**
+
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohnrbpalmer%2Fvideos%2F10156537321414253%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
 [John Palmer](http://johnrbpalmer.com)  
 [Sociodemography Research Group](https://www.upf.edu/web/demosoc) and  
