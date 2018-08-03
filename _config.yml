@@ -1,3 +1,76 @@
-theme: jekyll-theme-tactile
-title: The Escalating War on Immigrants
-description: Updates on the US government’s systematic attack on the most basic human values
+# Site wide configuration
+
+title:            The Escalating War on Immigrants
+locale:           en_US
+url:              http://waronimmigrants.github.io
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+
+# Octopress
+
+# Default extensions
+post_ext: md
+page_ext: md
+
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+
+# Site owner
+owner:
+  name: John R.B. Palmer
+  avatar: bio-photo.jpg
+  bio: "I am a tenure-track professor in the Department of Political and Social Sciences at Pompeu Fabra University. I work on questions arising in demography, law, and public policy related to human mobility and migration, social segregation, and disease ecology in the Sociodemography Research Group (DemoSoc) and the Interdisciplinary Research Group on Immigration (GRITIM). I currently teach Theories of International Migration and the Incorporation of Immigrants, Research Methods Applied to Global Studies, Advanced Criminological Research Methods, and Public International Law. I am also a founding member of Mosquito Alert and the Global Mosquito Alert initiative."
+  email:
+  disqus-shortname:
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
