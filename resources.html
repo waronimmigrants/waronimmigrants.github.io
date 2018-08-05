@@ -1,5 +1,5 @@
 ---
-title: Resources
+title: General Resources
 permalink: resources
 ---
 
@@ -7,7 +7,10 @@ permalink: resources
 <!doctype html>
 <html lang="en">
 
+<head>
 {% include head.html %}
+{% include listjs.html %}
+</head>
 
   <body>
       <div class="container">
@@ -19,8 +22,7 @@ permalink: resources
 <br>
 <br>
 
-<h2>Resources</h2>
-More coming soon
+<h2>{{ page.title }}</h2>
 <br>
 <br>
 
@@ -34,6 +36,8 @@ More coming soon
 
 <p><a href="http://crimmigration.com/">Crimigration</a></p>
 
+<p><a href="https://stukarnes.wordpress.com/">STU Karnes Project</a></p>
+
 <p><a href="https://www.justsecurity.org/tag/immigration/">Just Security</a></p>
 
 
@@ -44,14 +48,47 @@ More coming soon
 
 <p><a href="http://xpmethod.plaintext.in/torn-apart/">Torn Apart</a></p>
 
+<p><a href="https://projects.propublica.org/graphics/migrant-shelters-near-you">The Immigrant Children’s Shelters Near You</a></p>
+
+
+
 <h4>Statistics</h4>
 
 <p><a href="http://trac.syr.edu/immigration/">Transactional Records Access Clearinghouse</a></p>
+
+<br>
+<br>
+
+<h2>All Sources</h2>
+
+<div id="entry-list">
+
+<div class="row" style="margin-bottom:10px;">
+		<input type="text" class="search form-control" placeholder="Search" />
+</div>
+
+<div class="row">
+<table class="table table-striped">
+
+{% include table_head.html %}
+
+	<tbody class="list">
+	{% for post in site.posts %}
+
+{% include table_body.html %}
+
+	{% endfor %}
+	</tbody>
+</table>
+</div>
 
 
 {% include footer.html %}
 
 {% include bottom_script.html %}
+
+{% include table_script.html %}
+
 
   </body>
 </html>

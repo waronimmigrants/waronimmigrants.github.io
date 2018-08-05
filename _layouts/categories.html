@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	{% include head.html %}
+	{% include listjs.html %}
+
+</head>
+
+  <body>
+      <div class="container">
+
+{% include header.html %}
+
+{% include navbar.html %}
+
+<br>
+<br>
+
+<h2>{{ page.title }}</h2>
+
+{{ content }}
+
+<div id="entry-list">
+
+<div class="row" style="margin-bottom:10px;">
+		<input type="text" class="search form-control" placeholder="Search" />
+</div>
+
+<div class="row">
+<table class="table table-striped">
+
+{% include table_head.html %}
+
+	<tbody class="list">
+	{% for post in site.posts %}
+		{% if post.tags contains page.tag %}
+
+{% include table_body.html %}
+
+		{% endif %}
+	{% endfor %}
+	</tbody>
+</table>
+</div>
+
+</div>
+
+{% include footer.html %}
+
+{% include bottom_script.html %}
+
+{% include table_script.html %}
+
+
+  </body>
+</html>
