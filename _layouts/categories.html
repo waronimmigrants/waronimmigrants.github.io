@@ -33,8 +33,8 @@
 {% include table_head.html %}
 
 	<tbody class="list">
-	{% for post in site.posts %}
-		{% if post.tags contains page.tag %}
+	{% for source in site.data.sources %}
+		{% if source.Manual_Tags contains page.tag %}
 
 {% include table_body.html %}
 

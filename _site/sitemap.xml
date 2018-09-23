@@ -81,10 +81,6 @@
 <lastmod>2018-08-04T00:00:00+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/fbi-pressed-detained-anti-ice-activist-for-information-on-protests-offering-immigration-help/</loc>
-<lastmod>2018-08-07T00:00:00+02:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/about</loc>
 </url>
 <url>
@@ -95,6 +91,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/detention</loc>
+</url>
+<url>
+<loc>http://localhost:4000/europe</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
@@ -116,5 +115,12 @@
 </url>
 <url>
 <loc>http://localhost:4000/talks</loc>
+</url>
+<url>
+<loc>http://localhost:4000/us</loc>
+</url>
+<url>
+<loc>http://localhost:4000/images/WarOnImmigrants2018-09-27.pdf</loc>
+<lastmod>2018-09-18T17:50:05+02:00</lastmod>
 </url>
 </urlset>
