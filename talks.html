@@ -9,6 +9,8 @@ permalink: talks
 
 <head>
 {% include head.html %}
+	{% include listjs.html %}
+
 </head>
 
   <body>
@@ -26,63 +28,71 @@ permalink: talks
 
 <hr>
 
-<b>UPCOMING: 27 September 2018</b>
-<br>
-
-<h4>Europe's Retreat from Refugee Protection and Fundamental Rights</h4>
+<h4 id="s272018">27 September 2018</h4>
 <p>Universitat Pompeu Fabra</p>
-<a href="https://twitter.com/cristinamas_">Cristina Mas</a>, Journalist, Ara, and<br>
-<a href="">Lorenzo Gabrielli</a>, Interdisciplinary Research Group on Immigration,
+<h4>Europe's Retreat from Refugee Protection and Fundamental Rights</h4>
+<a href="https://twitter.com/cristinamas_">Cristina Mas</a>,
+Journalist, Ara<br> 
+<a href="">Lorenzo Gabrielli</a>,
+Interdisciplinary Research Group on Immigration,
 Department of Political and Social Sciences, UPF
 <br>
-Room 24.104 (Mercè Rodoreda building, Ciutadella Campus)<br>
-8:00-9:30 PM<br>
-<br>
-Free and Open to the Public
-<br>
-<p>This talk will cover the increasingly repressive immigration policies of the European Union and its member states. From militarized responses to migrants at sea to the criminalization of rescue operations, third country return agreements, and border externalization, Europe has taken a sharp turn away from any commitment to refugee protection and fundamental rights.</p>
 
 <br>
+<p>This talk covered the increasingly repressive immigration policies of the European Union and its member states. From militarized responses to migrants at sea to the criminalization of rescue operations, third country return agreements, and border externalization, Europe has taken a sharp turn away from any commitment to refugee protection and fundamental rights.</p>
 
-<a href="images/war_on_immigrants_image_flyer.png">Download Poster</a>
+<h5>Video</h5>
+<div class="embed-responsive embed-responsive-4by3">
+ <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohnrbpalmer%2Fvideos%2F10156682486289253%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+</div>
 
+<h5>Slides</h5>
+<div class="embed-responsive embed-responsive-4by3">
+
+<iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" width="550" height="400" src="https://prezi.com/embed/ob4qwcgrap_r/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5bDZMblZmb0xaSWNmUkJEeVhDTm5PMWdRPT0&amp;landing_sign=N5lBvZRIpTUvujYgJOkMVnPCCAgd3oXDadcyRWgwF4M"></iframe>
+</div>
 <br>
 
-<a href="images/WarOnImmigrants2018-09-27.pdf">Download Flyer</a>
+<h5>Related Articles</h5>
+<div id="entry-list">
+
+
+<div class="row">
+<table class="table table-striped">
+
+{% include table_head.html %}
+
+	<tbody class="list">
+	{% for source in site.data.sources %}
+	{% if source.Author contains "Mas, Cristina" or source.Author contains "Gabrielli, Lorenzo" %}
+
+{% include table_body.html %}
+
+{% endif %}
+
+	{% endfor %}
+	</tbody>
+</table>
+</div>
+
+<h5>Other Material</h5>
+<a href="images/war_on_immigrants_image_flyer.png">Poster</a>
+<br>
+<a href="images/WarOnImmigrants2018-09-27.pdf">Flyer</a>
+
 
 <br>
-<br>
-
-<img src="images/war_on_immigrants_image_flyer.png" class="img-fluid" alt="Responsive image">
-
-
-
-<br>
-<br>
-
 <hr>
-
-<br>
-<b>PREVIOUS TALKS</b>
-<br>
 <br>
 
-<p>Previous talks have been focused on the US situation, exploring the separation of children from their parents as a tool for deterrence, mass criminal prosecutions for immigration violations, the terrorization of minority communities by immigration police and unchecked extremist groups, the retreat from refugee protection, the attack on the Deferred Action for Childhood Arrivals policy, and the “Muslim ban” that Trump promised on his campaign trail. The talks have explored how the United States reached this point, including decades of self-reinforcing anti-immigrant policies and ballooning enforcement budgets under both Democratic and Republican administrations. They have provided overviews of the Trump administration’s immigration policies, highlighting the ways in which they differ from what has been seen previously, their impact on people’s lives, and ongoing efforts to challenge and resist them.</p>
-
-<br>
 
 <h4>30 July 2018</h4>
 <p>Universitat Pompeu Fabra</p>
+<h4>Updates on the US government's systematic attack on the most basic human values</h4>
 <p>John Palmer, Sociodemography Research Group and Interdisciplinary Research Group on Immigration</p>
 
-<p>This talk provides updates on legal and political developments in the United States, including the situation of thousands of children forcibly separated from their parents by the government, the Supreme Court’s decision on Trump’s Muslim ban, the use of mass detention, criminal prosecution, and interior raids as tools for border control, and increasing threats against naturalized citizens.</p>
+<p>This talk provided updates on legal and political developments in the United States, including the situation of thousands of children forcibly separated from their parents by the government, the Supreme Court’s decision on Trump’s Muslim ban, the use of mass detention, criminal prosecution, and interior raids as tools for border control, and increasing threats against naturalized citizens.</p>
 
-<h5>Slides</h5>
-<div class="embed-responsive embed-responsive-16by9">
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT2Ng80XaG3Hr6z6uU-pVSe2lFQKDPP8SQj1fvkRpU_HSNt8S7jZt6JGhALFskwfIKEKL9_NBExOJPb/embed?start=false&loop=false&delayms=3000" frameborder="0" width="560" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-</div>
-
-<br>
 
 <h5>Video</h5>
 <p>(Skip to minute 3:30 for start of talk)</p>
@@ -91,7 +101,14 @@ Free and Open to the Public
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohnrbpalmer%2Fvideos%2F10156537321414253%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe> 
 </div>
 
+<h5>Slides</h5>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT2Ng80XaG3Hr6z6uU-pVSe2lFQKDPP8SQj1fvkRpU_HSNt8S7jZt6JGhALFskwfIKEKL9_NBExOJPb/embed?start=false&loop=false&delayms=3000" frameborder="0" width="560" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+
+<br>
 <hr>
+<br>
 
 <h4>13 June 2018</h4>
 <p>Universitat Pompeu Fabra<br>
@@ -106,8 +123,8 @@ John Palmer, Sociodemography Research Group and Interdisciplinary Research Group
 </div>
 
 <br>
-<br>
 <hr>
+<br>
 
 <h4>29 March 2017</h4>
 <p>Universitat de Barcelona<br>
@@ -140,6 +157,9 @@ John Palmer and Mohammed El-Bachouti</p>
 {% include footer.html %}
 
 {% include bottom_script.html %}
+
+{% include table_script.html %}
+
 
   </body>
 </html>
