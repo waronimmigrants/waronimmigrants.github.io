@@ -5,7 +5,9 @@ title: The War on Immigrants
 <!doctype html>
 <html lang="en">
 
-<head>{% include head.html %}</head>
+<head>{% include head.html %}
+	{% include listjs.html %}
+</head>
 
   <body>
       <div class="container">
@@ -40,6 +42,32 @@ Department of Political and Social Sciences, UPF
 
 
 
+<h2>Recent Articles</h2>
+
+<div id="entry-list">
+
+
+<div class="row">
+<table class="table table-striped">
+
+{% include table_head.html %}
+
+	<tbody class="list">
+	{% for source in site.data.sources %}
+{% assign posttime = source.Date | date: '%s' %}
+{% assign lastweek = 'now' | date: '%s' | minus : 604800 | date: '%s' %}
+
+{% if posttime > lastweek %}
+
+{% include table_body.html %}
+
+{% endif %}
+
+	{% endfor %}
+	</tbody>
+</table>
+</div>
+
 
 
       </div>
@@ -47,6 +75,9 @@ Department of Political and Social Sciences, UPF
 {% include footer.html %}
 
 {% include bottom_script.html %}
+
+{% include table_script.html %}
+
 
   </body>
 </html>
