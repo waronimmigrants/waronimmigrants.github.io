@@ -79,7 +79,7 @@ Background: <a href="https://www.theguardian.com/us-news/2016/mar/29/us-mexico-b
 	<tbody class="list">
 	{% for source in site.data.sources %}
 {% assign posttime = source.Date | date: '%s' %}
-{% assign lastweek = 'now' | date: '%s' | minus : 604800 | date: '%s' %}
+{% assign lastweek = 'now' | date: '%s' | minus : 2419200 | date: '%s' %}
 
 {% if posttime > lastweek %}
 
